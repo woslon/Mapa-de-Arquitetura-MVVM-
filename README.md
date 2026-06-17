@@ -100,6 +100,8 @@ interface ApiService {
 
 ------------------------------------------------------------------------
 
+# Criar instancia 
+
 data/api/RetrofitInstance.kt
 
 import retrofit2.Retrofit 
@@ -119,6 +121,8 @@ object RetrofitInstance {
 
 ------------------------------------------------------------------------
 
+# Criar o repository
+
 data/repository/UserRepository.kt
 
 class UserRepository {
@@ -130,6 +134,8 @@ class UserRepository {
 }
 
 ------------------------------------------------------------------------
+
+# Criar o compartilhamento de dados ViewModel
 
 viewmodel/MainViewModel.kt
 
@@ -149,6 +155,8 @@ class MainViewModel : ViewModel() {
 
 ------------------------------------------------------------------------
 
+# Definir a navegação
+
 AppNavigation.kt
 
 @Composable fun App() {
@@ -164,6 +172,8 @@ AppNavigation.kt
 }
 
 ------------------------------------------------------------------------
+
+# Utlizar o ViewModel como parametro
 
 ui/TelaA.kt
 
