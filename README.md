@@ -15,6 +15,7 @@ Model define estrutura
 
 ###### Estrutura de Pastas  ######
 
+
 app/
  ├── model/
  │    └── User.kt
@@ -35,9 +36,11 @@ app/
  │    └── TelaB.kt
  │
  └── App.kt
+ 
 
 
 ######### Diagrama da Arquitetura #########
+
 
 
         ┌────────────────────┐
