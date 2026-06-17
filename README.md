@@ -73,13 +73,14 @@ app/
         └────────────────────┘
 
 
+
 Android MVVM (Compose)
 
 ------------------------------------------------------------------------
 
+# definir a tipagem
+ 
 model/User.kt
-
- # definir a tipagem
 
 data class User(
   val id: Int,
@@ -88,9 +89,9 @@ data class User(
 
 ------------------------------------------------------------------------
 
-data/api/ApiService.kt
-
 # definir as rotas 
+
+data/api/ApiService.kt
 
 import retrofit2.http.GET
 
