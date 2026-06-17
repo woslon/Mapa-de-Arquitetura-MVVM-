@@ -1,4 +1,4 @@
-MVVM (Model - View - ViewModel)
+# MVVM (Model - View - ViewModel)
 
 Regras:
 
@@ -12,9 +12,7 @@ API faz requisição HTTP
 
 Model define estrutura
 
-
-###### Estrutura de Pastas  ######
-
+# Estrutura de Pastas 
 
 app/
  ├── model/
@@ -39,7 +37,7 @@ app/
  
 
 
-######### Diagrama da Arquitetura #########
+# Diagrama da Arquitetura 
 
 
 
@@ -78,7 +76,7 @@ Android MVVM (Compose)
 
 ------------------------------------------------------------------------
 
-# definir a tipagem
+# Definir a tipagem
  
 model/User.kt
 
@@ -89,7 +87,7 @@ data class User(
 
 ------------------------------------------------------------------------
 
-# definir as rotas 
+# Definir as rotas 
 
 data/api/ApiService.kt
 
@@ -161,7 +159,7 @@ class MainViewModel : ViewModel() {
 
 # Definir a navegação
 
-AppNavigation.kt
+App.kt
 
 @Composable fun App() {
 
@@ -177,7 +175,7 @@ AppNavigation.kt
 
 ------------------------------------------------------------------------
 
-# Utlizar o ViewModel como parametro
+# Passar o ViewModel como parametro
 
 ui/TelaA.kt
 
